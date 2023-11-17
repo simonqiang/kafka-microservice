@@ -1,11 +1,9 @@
-2023-11-11 23:24:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.5 on Simons-Mac-Studio.local with PID 57002 (/Users/simon/Documents/project/java/microservices/microservices-demo/twitter-to-kafka-service/target/classes started by simon in /Users/simon/Documents/project/java/microservices/microservices-demo)
-2023-11-11 23:24:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-11-11 23:24:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.357 seconds (JVM running for 0.543)
-2023-11-11 23:24:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts....
-2023-11-11 23:24:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-11-11 23:26:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.5 on Simons-Mac-Studio.local with PID 57147 (/Users/simon/Documents/project/java/microservices/microservices-demo/twitter-to-kafka-service/target/classes started by simon in /Users/simon/Documents/project/java/microservices/microservices-demo)
-2023-11-11 23:26:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2023-11-11 23:26:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.367 seconds (JVM running for 0.549)
-2023-11-11 23:26:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts....
-2023-11-11 23:26:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2023-11-11 23:26:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to the Twitter To Kafka Service
+2023-11-17 10:40:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.5 on Simons-Mac-Studio.local with PID 96305 (/Users/simon/Documents/project/java/microservices/microservices-demo/twitter-to-kafka-service/target/classes started by simon in /Users/simon/Documents/project/java/microservices/microservices-demo)
+2023-11-17 10:40:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 10:40:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.401 seconds (JVM running for 0.635)
+2023-11-17 10:40:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts....
+2023-11-17 10:40:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-11-17 10:40:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Welcome to the Twitter To Kafka Service
+2023-11-17 10:40:17 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-11-17 10:40:17 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text adipiscing purus elit Lorem congue porttitor purus posuere Microservices adipiscing lectus Fusce dolor ipsum porttitor adipiscing sending to kafka topic {}
+2023-11-17 10:40:27 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Received status text amet sit dolor Fusce Elasticsearch amet consectetuer malesuada sending to kafka topic {}
