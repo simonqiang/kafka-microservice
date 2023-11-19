@@ -1,5 +1,6 @@
 package com.microservices.demo.kafka.producer.config.service.impl;
 
+import org.springframework.stereotype.Service;
 import org.springframework.util.concurrent.ListenableFuture;
 import com.microservices.demo.kafka.avro.model.TwitterAvroModel;
 import com.microservices.demo.kafka.producer.config.service.KafkaProducer;
@@ -12,6 +13,7 @@ import org.springframework.util.concurrent.ListenableFutureCallback;
 
 import javax.annotation.PreDestroy;
 
+@Service
 public class TwitterKafkaProducer implements KafkaProducer<Long, TwitterAvroModel> {
 
     private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaProducer.class);
